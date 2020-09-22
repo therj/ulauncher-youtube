@@ -1,8 +1,8 @@
-# Youtube Search extension
+# Youtube Search Extension
 
 > A [ulauncher](https://ulauncher.io/) extension
 
-It uses selenium to scrape and BeautifulSoup to parse.
+Uses selenium to visit YouTube and BeautifulSoup to parse response.
 
 ## Install `selenium` and `BeautifulSoup`
 
@@ -18,10 +18,9 @@ If you use a different python environment (conda/pyenv/pipenv), Ulauncher will c
 /usr/bin/pip3 install selenium==3.141.0
 ```
 
-## Install chromium driver.
+## Install chromium driver
 
 For debian based distro (Ubuntu, Mint, etc):
-
 ```bash
 sudo apt install chromium-chromedriver
 ```
